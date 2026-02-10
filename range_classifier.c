@@ -7,13 +7,13 @@ int main(){
     scanf("%d", &a);
     if (a <= 30){
         printf("You suck bruh omg\n");
-    } else if (a >= 30 && a <= 50) {
+    } else if (a <= 50) {
         printf("maybe you dont suck after all...take a C\n");
-    } else if (a >= 50 && a <= 60){
+    } else if (a <= 60){
         printf("Dam it looks like your good after all, you deserve a B\n");
-    } else if (a >= 60 && a <= 70){
+    } else if (a <= 70){
         printf("Okay you're good dawg, take a B+\n");
-    } else if (a >= 70 && a <= 100){
+    } else if (a <= 100){
         printf("you the goat, straight A\n");
     }
     return 0;
