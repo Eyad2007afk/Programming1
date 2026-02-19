@@ -15,7 +15,7 @@ int main(){
     printf("check this out \n");
     printf("type 1 : \n");
     int b;
-    scanf("%d",&b );
+    //scanf("%d",&b );
     for (int i = 1; i <= 16; i++){
         if (i % 2==0){
             printf("number %d is even\n", i);
