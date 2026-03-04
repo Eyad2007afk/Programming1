@@ -8,6 +8,10 @@ int main (void){
     int a[6]= {1,2,3};
     size_t n = sizeof(a) / sizeof(a[0]);
     printf("length of a is %zu\n", n);
+    printf("first index = 0, last index %zu\n\n", n-1);
+    // print_int_array(a,n);
+
+
 
 
 
