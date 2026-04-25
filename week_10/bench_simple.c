@@ -7,6 +7,7 @@ void test(int n) {
         sum += i;
       
 }
+}
 
 int main() {
     int sizes[] = {1000000, 2000000, 4000000};

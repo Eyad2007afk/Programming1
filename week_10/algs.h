@@ -76,4 +76,8 @@ void selection_sort (int *a, size_t n ){
         }
     }
 
+        //TO USE QSORT 
+        // build a comp function that compares two void pointers
+        // and then return cast them as int 
+
     #endif

@@ -16,4 +16,3 @@ int main (void){
         printf("time taken to search :  %f\n", result, time_taken);
   return 0;  
 }
-
