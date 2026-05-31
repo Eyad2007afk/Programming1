@@ -34,11 +34,11 @@ int main(void){
     }
     int bsizes[] = {500,1000, 2000};
         for (int a = 0; a < 3; a++){
-        int j = bsizes[a];
-        clock_t start = clock();
-        test2(j);
-        clock_t end = clock();
-        double time_taken = (double) (end - start) / CLOCKS_PER_SEC;
-        printf("%d : %f\n", j, time_taken);
+            int j = bsizes[a];
+                clock_t start = clock();
+                test2(j);
+                clock_t end = clock();
+                double time_taken = (double) (end - start) / CLOCKS_PER_SEC;
+            printf("%d : %f\n", j, time_taken);
         }
 }

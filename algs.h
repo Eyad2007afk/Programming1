@@ -76,6 +76,25 @@ void selection_sort (int *a, size_t n ){
         }
     }
 
+    //BUBBLE SORT 
+    void bubble_sort(int *a, size_t n){
+        if (a == 0 || n < 2){
+            return ; 
+        }
+        for (size_t pass = 0; pass < n -1 ; pass += 1){
+            int swapped = 0;
+            for (size_t j = 0; j + 1 < n - pass; j +=1){
+                if (a[j] > a[j + 1]){
+                    swap_ints(&a[j], &a[j + 1]);
+                    swapped = 1;
+                }
+            }
+             if (!swapped){
+            return;
+            }
+        }       
+    }
+
         //TO USE QSORT 
         // build a comp function that compares two void pointers
         // and then return cast them as int 
